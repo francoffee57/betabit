@@ -54,13 +54,21 @@ body{
 .buttom-header{
 	position: absolute;
 	top: 266px;
-	left: calc(50% - 100px);
+	left: calc(50% - 118px);
 	padding: 15px 32px;
 	background-color: var(--ofWhite);
 	text-decoration: none;
 	font-size: 14px;
+	font-weight: bold;
 	color: var(--warmBlack);
 	box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 	border-radius: 4px;
 }
 
+.buttom-header span{
+	display: inline-block;
+	width: 13px;
+	height: 8px;
+	margin-left: 10px;
+	background-image: url(../asets/icon/arrow-down.svg);
+}
