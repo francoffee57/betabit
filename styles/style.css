@@ -137,17 +137,19 @@ body{
 	line-height: 1.9rem;
 	color: #B5B0AC;
 }
-.table .title-table-monedas, 
+.title-table-monedas, 
 .title-table-comisiones{
+	padding-bottom: 12px;
+	margin-left: 1.7em;
 	font-weight: bold;
 	font-size: 1.8rem;
 	line-height: 23px;
-	padding-bottom: 12px;
+	text-align: left;
 }
 .title-table-monedas{
 	color: var(--bitcoinOrange);
 }
-.table .title-table-comisiones{
+.title-table-comisiones{
 	color: var(--secondaryBlue);
 }
 
@@ -177,3 +179,76 @@ body{
 }
 
 /*--Section Product--*/
+.main-product-detail{
+	padding-top: 64px;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-bottom: 46px;
+	background-color: #201e1c;
+}
+.logo-float{
+	position: absolute;
+	transform: scaleX(-1);
+	top: -10px;
+	left: calc(50% - 25px);
+}
+.main-product-text{
+	margin: 0 auto 32px;
+	width: 90%;
+	text-align: center;
+}
+.main-product-text h2{
+	margin-bottom: 24px;
+	font-weight: bold;
+	font-size: 2.4rem;
+	line-height: 2.6rem;
+	color: var(--justWhite);
+}
+.main-product-text p{
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #808080;
+}
+
+.main-product-card{
+	width: 90%;
+	margin: 0 auto 16px;
+	background-color: var(--blackPlus);
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+	border-radius: 4px;
+}
+.icon-product{
+	width: 25px;
+	height: 25px;
+	margin: 16px 18px 12px;
+}
+.clock{
+	background-image: url(../asets/icon/clock.svg);
+}
+.eye{
+	background-image: url(../asets/icon/eye.svg);
+}
+.dollar-sign{
+	background-image: url(../asets/icon/dollar-sign.svg);
+}
+.check-circle{
+	background-image: url(../asets/icon/check-circle.svg);
+}
+
+.main-product-card h3{
+	margin: 0 16px 10px;
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	color: var(--justWhite);
+}
+.main-product-card p{
+	margin: 0 16px 20px;
+	padding-bottom: 22px;
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #808080;
+}
