@@ -18,6 +18,7 @@ html{
 }
 body{
 	font-family: DM Sans;
+	background-color: var(--ofWhite);
 }
 
 /*--------Header--------*/
@@ -25,6 +26,7 @@ body{
 	width: 100%;
 	height: 295px;
 	text-align: center;
+	margin-bottom: 59px;
 	background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 
@@ -41,13 +43,18 @@ body{
 .text-header h1{
 	font-weight: bold;
 	font-size: 2.4rem;
+	line-height: 26px;
 	color: var(--justWhite);
-	margin-top: 0;
-	margin-bottom: 24px;
+	/*margin-top: 0;
+	margin-bottom: 24px;*/
+	margin: 0 20px 24px;
 }
 
 .text-header p{
+	margin: 0 24px;
 	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 18px;
 	color: var(--softOrange);
 }
 
@@ -71,4 +78,36 @@ body{
 	height: 8px;
 	margin-left: 10px;
 	background-image: url(../asets/icon/arrow-down.svg);
+}
+
+/*---------Main----------*/
+
+/*--Seccioón de intercambios--*/
+.main-exchange-conteiner{
+	width: 100%;
+	text-align: center;
+}
+
+.main-exchange-img{
+	margin-bottom: 40px;
+}
+
+.main-exchange-text{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+.main-exchange-text h2{
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 26px;
+	margin: 0 1px 24px;
+}
+.main-exchange-text p{
+	margin-bottom: 48px;
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 18px;
+	color: #757575;
 }
