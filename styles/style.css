@@ -72,11 +72,14 @@ body{
 	border-radius: 4px;
 }
 
-.buttom-header span{
+.icon{
 	display: inline-block;
 	width: 13px;
 	height: 8px;
 	margin-left: 10px;
+}
+
+.buttom-header span{
 	background-image: url(../asets/icon/arrow-down.svg);
 }
 
@@ -91,7 +94,7 @@ body{
 .main-exchange-img{
 	margin-bottom: 40px;
 }
-
+/*textos*/
 .main-exchange-text{
 	width: 90%;
 	margin-left: auto;
@@ -111,3 +114,45 @@ body{
 	line-height: 18px;
 	color: #757575;
 }
+/*tabla*/
+
+.table-conteiner{
+	width: 70%;
+	height: 156px;
+	height: auto;
+	margin: 0 auto;
+	/*margin-bottom: 350px;*/
+}
+.table{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+.table td{
+	width: 50%;
+	height: 39px;
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 1.9rem;
+	color: #B5B0AC;
+}
+.table-conteiner caption{
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 23px;
+	color: var(--bitcoinOrange);
+	padding-bottom: 12px;
+}
+.table{
+	border-radius: 8px;
+}
+.down{
+	height: 10px;
+	background-image: url(../asets/icon/trending-down.svg);
+}
+.up{
+	height: 10px;
+	background-image: url(../asets/icon/trending-up.svg);
+}
+
