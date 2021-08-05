@@ -85,7 +85,7 @@ body{
 
 /*---------Main----------*/
 
-/*--Seccioón de intercambios--*/
+/*--Exchange Section--*/
 .main-exchange-conteiner{
 	width: 100%;
 	text-align: center;
@@ -94,7 +94,7 @@ body{
 .main-exchange-img{
 	margin-bottom: 40px;
 }
-/*textos*/
+/*text*/
 .main-exchange-text{
 	width: 90%;
 	margin-left: auto;
@@ -114,19 +114,19 @@ body{
 	line-height: 18px;
 	color: #757575;
 }
-/*tabla*/
+/*table*/
 
 .table-conteiner{
 	width: 70%;
 	height: 156px;
 	height: auto;
 	margin: 0 auto;
-	/*margin-bottom: 350px;*/
 }
 .table{
 	width: 100%;
 	height: auto;
 	background-color: white;
+	margin-bottom: 16px;
 }
 .table td{
 	width: 50%;
@@ -137,13 +137,20 @@ body{
 	line-height: 1.9rem;
 	color: #B5B0AC;
 }
-.table-conteiner caption{
+.table .title-table-monedas, 
+.title-table-comisiones{
 	font-weight: bold;
 	font-size: 1.8rem;
 	line-height: 23px;
-	color: var(--bitcoinOrange);
 	padding-bottom: 12px;
 }
+.title-table-monedas{
+	color: var(--bitcoinOrange);
+}
+.table .title-table-comisiones{
+	color: var(--secondaryBlue);
+}
+
 .table{
 	border-radius: 8px;
 }
@@ -155,4 +162,18 @@ body{
 	height: 10px;
 	background-image: url(../asets/icon/trending-up.svg);
 }
+.table-description-money{
+	padding: 8px;
+	margin-bottom: 64px;
+	font-size: 1.2rem;
+	/*line-height: 15px;*/
+	text-align: center;
+}
+.table1{
+	background-color: var(--softOrange);
+}
+.table2{
+	background-color: var(--softBlue);
+}
 
+/*--Section Product--*/
