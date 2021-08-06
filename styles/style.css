@@ -95,19 +95,20 @@ body{
 	margin-bottom: 40px;
 }
 /*text*/
-.main-exchange-text{
+.main--text{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
+	text-align: center;
 }
-.main-exchange-text h2{
+.main--text h2{
 	font-size: 2.4rem;
 	font-weight: bold;
 	line-height: 26px;
 	margin: 0 1px 24px;
 }
-.main-exchange-text p{
+.main--text p{
 	margin-bottom: 48px;
 	font-weight: 500;
 	font-size: 1.4rem;
@@ -257,6 +258,7 @@ body{
 .main-img-background{
 	width: 100%;
 	height: 50vh;
+	margin-bottom: 64px;
 	background-image: url(../asets/img/bitcoinbaby.jpg);
 	background-position: center;
 	background-size: cover;
@@ -270,4 +272,85 @@ body{
 	font-size: 2.4rem;
 	line-height: 2.6rem;
 	color: var(--justWhite);
+}
+
+/*--Section plan--*/
+.main-plan{
+	padding-bottom: 65px;
+}
+.plan-text{
+	margin-bottom: 50px;
+}
+.main-plans-card{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.recommended{
+	display: inline-block;
+	position: absolute;
+	top: -25px;
+	left: calc(50% - 45px);
+	padding: 8px;
+	font-weight: bold;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	border-radius: 8px;
+	color: var(--justWhite);
+	background-color: var(--bitcoinOrange);
+}
+.plans-card{
+	width: 190px;
+	margin: 0 auto;
+	background-color: var(--justWhite);
+	box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+	border-radius: 8px;
+}
+.plans-card h3{
+	padding-top:31px;
+	margin-bottom: 8px;
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #000;
+}
+
+.price{
+	margin: 0;
+	font-weight: bold;
+	font-size: 5.2rem;
+	line-height: 6.3rem;
+	letter-spacing: -0.08em;
+}
+.price span{
+	position: relative;
+	top: -25px;
+	/*left: 10px;*/
+	right: 10px;
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+.plans-card-text{
+	margin: 0 16px 16px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+}
+.plans-card button{
+	padding: 15px 16px;
+	margin: 0 20px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--warmBlack);
+	background-color: var(--ofWhite);
+	border: 2px solid var(--bitcoinOrange) ;
+	border-radius: 4px;
+}
+.arrow-right{
+	width: 20px;
+	height: 20px;
+	margin-left: 13px;
+	background-image: url(../asets/icon/arrow-right.svg);
 }
