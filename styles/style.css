@@ -354,3 +354,29 @@ body{
 	margin-left: 13px;
 	background-image: url(../asets/icon/arrow-right.svg);
 }
+
+/*---------footer---------*/
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 150px;
+	background-color: var(--bitcoinOrange);
+}
+.footer-links a{
+	display: flex;
+	margin-left: 65px;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: var(--justWhite);
+}
+.footer-logo{
+	margin-right: 58px;
+	font-weight: 500;
+	font-size: 8px;
+	line-height: 18px;
+	color: var(--softOrange);
+}
