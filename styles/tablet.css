@@ -1,0 +1,23 @@
+.main-exchange-table{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.table-conteiner{
+	width: 300px;
+	margin: 0 2%;
+}
+
+.main-img-background{
+	background-image: url(../asets/img/bitcoinbaby2x.jpg);
+}
+
+.main-plans-card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.plans-card{
+	margin: 0 5px;
+}
+
