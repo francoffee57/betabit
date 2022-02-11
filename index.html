@@ -116,32 +116,38 @@
 				<p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
 			</div>
 
-			<section class="main-plans-card">
-				<p class="recommended">Recomendado</p>
-				<article class="plans-card">
-					<h3>Pago Anual</h3>
-					<p class="price"><span>$</span>99</p>
-					<p class="plans-card-text">*Ahorras $129 comparado al plan mensual.</p>
-					<button>Escoge este <span class="icon arrow-right"></span></button>
-				</article>
+			<section id="plansCard" class="main-plans-card">
+				<button class="buton__plans-card buton__plans-card--left" id="plansLeft">&lt;</button>
 
-				<article class="plans-card">
-					<h3>Pago Anual</h3>
-					<p class="price"><span>$</span>99</p>
-					<p class="plans-card-text">*Ahorras $129 comparado al plan mensual.</p>
-					<button>Escoge este <span class="icon arrow-right"></span></button>
-				</article>
+				<div class="plans-card__container">
+					<article class="plans-card">
+						<h3>Pago Anual  --1</h3>
+						<p class="price"><span>$</span>99</p>
+						<p class="plans-card-text">*Ahorras $129 comparado al plan mensual.</p>
+						<button>Escoge este <span class="icon arrow-right"></span></button>
+					</article>
 
-				<article class="plans-card">
-					<h3>Pago Anual</h3>
-					<p class="price"><span>$</span>99</p>
-					<p class="plans-card-text">*Ahorras $129 comparado al plan mensual.</p>
-					<button>Escoge este <span class="icon arrow-right"></span></button>
-				</article>
+					<article class="plans-card plan-recommended">
+						<p class="recommended">Recomendado</p>
 
+						<h3>Pago Anual  --2</h3>
+						<p class="price"><span>$</span>99</p>
+						<p class="plans-card-text">*Ahorras $129 comparado al plan mensual.</p>
+						<button>Escoge este <span class="icon arrow-right"></span></button>
+					</article>
+
+					<article class="plans-card">
+						<h3>Pago Anual  --3</h3>
+						<p class="price"><span>$</span>99</p>
+						<p class="plans-card-text">*Ahorras $129 comparado al plan mensual.</p>
+						<button>Escoge este <span class="icon arrow-right"></span></button>
+					</article>
+				</div>
+				<button class="buton__plans-card buton__plans-card--right" id="plansRight">></button>
 			</section>
 		</section>
 	</main>
+
 	<footer class="footer">
 		<div class="footer-links">
 			<a href="#">Linkedin</a>
@@ -153,5 +159,7 @@
 			<p>® Batatabit 2020</p>
 		</div>
 	</footer>
+
+	<script src="./scripts/index.js" type="module"></script>
 </body>
 </html>

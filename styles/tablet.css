@@ -21,3 +21,13 @@
 	margin: 0 5px;
 }
 
+.buton__plans-card{
+	opacity: 0;
+	z-index: -100;
+}
+.plans-card__container{
+	position: static;
+	margin: 0 auto;
+	width: 100%;
+	justify-content: center;
+}
