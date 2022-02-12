@@ -63,11 +63,11 @@ body{
 	top: 266px;
 	left: calc(50% - 118px);
 	padding: 15px 32px;
-	background-color: var(--ofWhite);
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: bold;
 	color: var(--warmBlack);
+	background-color: var(--ofWhite);
 	box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 	border-radius: 4px;
 }
@@ -116,12 +116,22 @@ body{
 	color: #757575;
 }
 /*table*/
-
+.main-exchange-table{
+	position: relative;
+	overflow: hidden;
+}
+.conteiner__tables-conteiner{
+	position: relative;
+	left: 0;
+	display: flex;
+	transition: all .4s;
+}
 .table-conteiner{
 	width: 70%;
+	min-width: 224px;
 	height: 156px;
 	height: auto;
-	margin: 0 auto;
+	margin: 0 calc(50% - 112px);
 }
 .table{
 	width: 100%;
@@ -388,7 +398,9 @@ body{
 .buton__plans-card--right{
 	right: 10px;
 }
-
+.buton__plans-card--exchang{
+	top: calc(50% - 70px);
+}
 /*---------footer---------*/
 .footer{
 	display: flex;
